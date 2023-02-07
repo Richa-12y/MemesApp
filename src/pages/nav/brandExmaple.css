@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.brand-container {
+  width: 100vw;
+  background-color: black;
+  position: sticky;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 15vh;
+}
+.nav-title {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  opacity: 0.5;
+  transform: rotate(-43deg);
+  cursor: pointer;
+}
+.nav-title:hover {
+  opacity: 1;
+}
+
+[alt="photo"] {
+  object-fit: cover;
+  margin-right: 1rem;
+  width: 100px;
+  cursor: pointer;
+}

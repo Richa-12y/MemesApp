@@ -1,0 +1,25 @@
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 15vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.soc-media-conatiner {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+[alt="logoforsocielmedia"] {
+  width: 50px;
+  height: 50px;
+}
